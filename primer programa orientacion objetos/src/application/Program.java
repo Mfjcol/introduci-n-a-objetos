@@ -1,3 +1,6 @@
+
+/*A identação está bem organizada */
+
 package application;
 
 import java.util.Scanner;
@@ -7,7 +10,7 @@ import entidade.Triangulo;
 public class Program {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); 
 		double areaX,  areaY;
 		Triangulo x,y;
 		
@@ -16,7 +19,7 @@ public class Program {
 		
 
 
-		System.out.println("Enter the measures of triangle X");
+		System.out.println("Enter the measures of triangle X"); // Fiz uma alteração nesta linha. Substitui a palavra Triangulo para Triangle. Altere você também nesta mesma linha para fazer um teste de conflito.
 
 		x.a = sc.nextDouble();
 		x.b= sc.nextDouble();
